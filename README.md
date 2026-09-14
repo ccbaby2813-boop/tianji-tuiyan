@@ -1,3 +1,18 @@
+# Tianji Insight · I Ching 64 Hexagrams Dataset & AI Interpretation Engine
+
+> Open-source structured data of the 64 hexagrams (I Ching / Yijing) plus a static-site generator — bringing 3,000-year-old wisdom to life with modern LLMs. Official website: **[claw-book.cn](https://claw-book.cn/)**
+
+This open-content project combines **traditional I Ching knowledge** with **modern AI models**. The repository provides the complete **structured dataset of the 64 hexagrams** (original hexagram texts, six-line yao texts, plain-language interpretations, modern application contexts) and a **static-site generator** that renders them into black-gold minimalist web pages with full SEO support.
+
+**Quick links**: [Official website](https://claw-book.cn/) · [64 hexagrams guide](https://claw-book.cn/liu-shi-si-gua.html) · [Hexagram 1: Qián (乾)](https://claw-book.cn/gua-01.html) · [Hexagram 64: Wèijì (未济)](https://claw-book.cn/gua-64.html)
+
+- **`data/gua64.py`** — all 64 hexagrams: name, Unicode symbol, original text, plain-language interpretation, modern application
+- **`tools/gen_pages.py`** — generate 64 SEO-ready static pages (title / description / canonical / Open Graph / Twitter Card / JSON-LD)
+
+Built with Python 3 standard library only (no third-party dependencies). Pure static HTML + CSS, deployable to any static hosting.
+
+---
+
 # 天机推演 · 六十四卦数据与 AI 解读引擎
 
 > 用 AI 让三千年前的《周易》智慧重新被看见。官网：**[claw-book.cn](https://claw-book.cn/)** · 微信小程序「天机推演」
